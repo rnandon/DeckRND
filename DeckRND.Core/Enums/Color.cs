@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeckRND.Core.Generics
+namespace DeckRND.Core.Enums
 {
-    public interface ICardCollection
+    public enum Color
     {
+        None,
+        White,
+        Blue,
+        Black,
+        Red,
+        Green
     }
 }

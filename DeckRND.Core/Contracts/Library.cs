@@ -7,7 +7,16 @@ using System.Threading.Tasks;
 
 namespace DeckRND.Core.Contracts
 {
-    internal class Library : ICardCollection
+    public class Library : CardCollection
     {
+        public List<Card> Cards = new List<Card>();
+        public string Name = string.Empty;
+
+        public Library() {}
+        public Library(List<Card> cards, string name)
+        {
+            Cards = cards;
+            Name = name;
+        }
     }
 }
