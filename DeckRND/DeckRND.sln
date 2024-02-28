@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckRND", "DeckRND\DeckRND.csproj", "{32F26CDD-C353-47D4-AA6C-4A6A330CB9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckRND.Client", "DeckRND.Client\DeckRND.Client.csproj", "{0A978800-BC64-4E0B-A791-A95E9597FCD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F26CDD-C353-47D4-AA6C-4A6A330CB9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F26CDD-C353-47D4-AA6C-4A6A330CB9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F26CDD-C353-47D4-AA6C-4A6A330CB9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F26CDD-C353-47D4-AA6C-4A6A330CB9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A978800-BC64-4E0B-A791-A95E9597FCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A978800-BC64-4E0B-A791-A95E9597FCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A978800-BC64-4E0B-A791-A95E9597FCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A978800-BC64-4E0B-A791-A95E9597FCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B440650A-D9D2-4A22-A281-4EAEAFDA119D}
+	EndGlobalSection
+EndGlobal
